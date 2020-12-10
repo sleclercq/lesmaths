@@ -1,14 +1,21 @@
 import './App.css';
-import Addition from './components/Addition'
+import Operations from "./components/Operations";
 
 function App() {
-
-    const first = 1
-    const second = 2
+    const operations = [
+        {
+            first: 1,
+            second: 2
+        },
+        {
+            first: 3,
+            second: 4
+        }
+    ]
 
   return (
     <div className="App">
-      <Addition first={first} second={second} />
+      <Operations operations={operations} />
     </div>
   );
 }
