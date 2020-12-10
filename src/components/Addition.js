@@ -2,7 +2,7 @@ import React from 'react'
 
 const Addition = ({first, second}) => {
     return (
-            <div>{first} + {second} = {first + second}</div>
+            <div>{first} + {second} =</div>
     )
 }
 
