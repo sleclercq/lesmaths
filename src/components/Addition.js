@@ -1,0 +1,9 @@
+import React from 'react'
+
+const Addition = ({first, second}) => {
+    return (
+            <div>{first} + {second} = {first + second}</div>
+    )
+}
+
+export default Addition
